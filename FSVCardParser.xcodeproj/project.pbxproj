@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53352B78185DB10F0028C4F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53352B77185DB10F0028C4F3 /* Foundation.framework */; };
+		53352B7D185DB10F0028C4F3 /* FSVCardParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53352B7C185DB10F0028C4F3 /* FSVCardParser.h */; };
+		53352B7F185DB10F0028C4F3 /* FSVCardParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 53352B7E185DB10F0028C4F3 /* FSVCardParser.m */; };
+		53352B86185DB10F0028C4F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53352B85185DB10F0028C4F3 /* XCTest.framework */; };
+		53352B87185DB10F0028C4F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53352B77185DB10F0028C4F3 /* Foundation.framework */; };
+		53352B89185DB10F0028C4F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53352B88185DB10F0028C4F3 /* UIKit.framework */; };
+		53352B8C185DB10F0028C4F3 /* libFSVCardParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53352B74185DB10F0028C4F3 /* libFSVCardParser.a */; };
+		53352B92185DB10F0028C4F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53352B90185DB10F0028C4F3 /* InfoPlist.strings */; };
+		53352B9F185DB1AD0028C4F3 /* example-vcard.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 53352B9E185DB1AD0028C4F3 /* example-vcard.vcf */; };
+		53352BA5185DB5030028C4F3 /* FSVCardFileManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53352BA4185DB5030028C4F3 /* FSVCardFileManagerTests.m */; };
+		53352BA8185DB56A0028C4F3 /* FSVCardParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53352BA7185DB56A0028C4F3 /* FSVCardParserTests.m */; };
+		53352BE2185DBA060028C4F3 /* FSVCardFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53352BE1185DBA060028C4F3 /* FSVCardFileManager.m */; };
+		53352BE4185DBA4F0028C4F3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53352BE3185DBA4F0028C4F3 /* AddressBook.framework */; };
+		53352BEA185DBE2B0028C4F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53352B77185DB10F0028C4F3 /* Foundation.framework */; };
+		53352BEB185DBE2B0028C4F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53352BAF185DB9D10028C4F3 /* CoreGraphics.framework */; };
+		53352BEC185DBE2B0028C4F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53352B88185DB10F0028C4F3 /* UIKit.framework */; };
+		53352BF2185DBE2B0028C4F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53352BF0185DBE2B0028C4F3 /* InfoPlist.strings */; };
+		53352BF4185DBE2B0028C4F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53352BF3185DBE2B0028C4F3 /* main.m */; };
+		53352BF8185DBE2B0028C4F3 /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53352BF7185DBE2B0028C4F3 /* FSAppDelegate.m */; };
+		53352BFA185DBE2B0028C4F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53352BF9185DBE2B0028C4F3 /* Images.xcassets */; };
+		53F624F5185DBECD00979C36 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53352BE3185DBA4F0028C4F3 /* AddressBook.framework */; };
+		53F624F7185DBED100979C36 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F624F6185DBED100979C36 /* AddressBookUI.framework */; };
+		53F624F8185DBEDA00979C36 /* example-vcard.vcf in Resources */ = {isa = PBXBuildFile; fileRef = 53352B9E185DB1AD0028C4F3 /* example-vcard.vcf */; };
+		53F624FB185DBFD700979C36 /* libFSVCardParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53352B74185DB10F0028C4F3 /* libFSVCardParser.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53352B8A185DB10F0028C4F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53352B6C185DB10F0028C4F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53352B73185DB10F0028C4F3;
+			remoteInfo = FSVCardParser;
+		};
+		53F624F9185DBFCA00979C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53352B6C185DB10F0028C4F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53352B73185DB10F0028C4F3;
+			remoteInfo = FSVCardParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53352B72185DB10F0028C4F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				53352B7D185DB10F0028C4F3 /* FSVCardParser.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53352B74185DB10F0028C4F3 /* libFSVCardParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFSVCardParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		53352B77185DB10F0028C4F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53352B7B185DB10F0028C4F3 /* FSVCardParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSVCardParser-Prefix.pch"; sourceTree = "<group>"; };
+		53352B7C185DB10F0028C4F3 /* FSVCardParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSVCardParser.h; sourceTree = "<group>"; };
+		53352B7E185DB10F0028C4F3 /* FSVCardParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSVCardParser.m; sourceTree = "<group>"; };
+		53352B84185DB10F0028C4F3 /* FSVCardParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSVCardParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53352B85185DB10F0028C4F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		53352B88185DB10F0028C4F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		53352B8F185DB10F0028C4F3 /* FSVCardParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FSVCardParserTests-Info.plist"; sourceTree = "<group>"; };
+		53352B91185DB10F0028C4F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53352B9E185DB1AD0028C4F3 /* example-vcard.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "example-vcard.vcf"; sourceTree = "<group>"; };
+		53352BA4185DB5030028C4F3 /* FSVCardFileManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVCardFileManagerTests.m; sourceTree = "<group>"; };
+		53352BA7185DB56A0028C4F3 /* FSVCardParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVCardParserTests.m; sourceTree = "<group>"; };
+		53352BAF185DB9D10028C4F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53352BE0185DBA060028C4F3 /* FSVCardFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSVCardFileManager.h; sourceTree = "<group>"; };
+		53352BE1185DBA060028C4F3 /* FSVCardFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVCardFileManager.m; sourceTree = "<group>"; };
+		53352BE3185DBA4F0028C4F3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		53352BE9185DBE2B0028C4F3 /* FSVCardParserExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSVCardParserExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53352BEF185DBE2B0028C4F3 /* FSVCardParserExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FSVCardParserExample-Info.plist"; sourceTree = "<group>"; };
+		53352BF1185DBE2B0028C4F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53352BF3185DBE2B0028C4F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53352BF5185DBE2B0028C4F3 /* FSVCardParserExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSVCardParserExample-Prefix.pch"; sourceTree = "<group>"; };
+		53352BF6185DBE2B0028C4F3 /* FSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSAppDelegate.h; sourceTree = "<group>"; };
+		53352BF7185DBE2B0028C4F3 /* FSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAppDelegate.m; sourceTree = "<group>"; };
+		53352BF9185DBE2B0028C4F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53F624F6185DBED100979C36 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53352B71185DB10F0028C4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53352BE4185DBA4F0028C4F3 /* AddressBook.framework in Frameworks */,
+				53352B78185DB10F0028C4F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53352B81185DB10F0028C4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53352B86185DB10F0028C4F3 /* XCTest.framework in Frameworks */,
+				53352B89185DB10F0028C4F3 /* UIKit.framework in Frameworks */,
+				53352B8C185DB10F0028C4F3 /* libFSVCardParser.a in Frameworks */,
+				53352B87185DB10F0028C4F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53352BE6185DBE2B0028C4F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F624FB185DBFD700979C36 /* libFSVCardParser.a in Frameworks */,
+				53F624F7185DBED100979C36 /* AddressBookUI.framework in Frameworks */,
+				53F624F5185DBECD00979C36 /* AddressBook.framework in Frameworks */,
+				53352BEB185DBE2B0028C4F3 /* CoreGraphics.framework in Frameworks */,
+				53352BEC185DBE2B0028C4F3 /* UIKit.framework in Frameworks */,
+				53352BEA185DBE2B0028C4F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53352B6B185DB10F0028C4F3 = {
+			isa = PBXGroup;
+			children = (
+				53352B79185DB10F0028C4F3 /* FSVCardParser */,
+				53352B8D185DB10F0028C4F3 /* FSVCardParserTests */,
+				53352BED185DBE2B0028C4F3 /* FSVCardParserExample */,
+				53352B76185DB10F0028C4F3 /* Frameworks */,
+				53352B75185DB10F0028C4F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53352B75185DB10F0028C4F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53352B74185DB10F0028C4F3 /* libFSVCardParser.a */,
+				53352B84185DB10F0028C4F3 /* FSVCardParserTests.xctest */,
+				53352BE9185DBE2B0028C4F3 /* FSVCardParserExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53352B76185DB10F0028C4F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F624F6185DBED100979C36 /* AddressBookUI.framework */,
+				53352BE3185DBA4F0028C4F3 /* AddressBook.framework */,
+				53352B77185DB10F0028C4F3 /* Foundation.framework */,
+				53352B85185DB10F0028C4F3 /* XCTest.framework */,
+				53352B88185DB10F0028C4F3 /* UIKit.framework */,
+				53352BAF185DB9D10028C4F3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53352B79185DB10F0028C4F3 /* FSVCardParser */ = {
+			isa = PBXGroup;
+			children = (
+				53352BE0185DBA060028C4F3 /* FSVCardFileManager.h */,
+				53352BE1185DBA060028C4F3 /* FSVCardFileManager.m */,
+				53352B7C185DB10F0028C4F3 /* FSVCardParser.h */,
+				53352B7E185DB10F0028C4F3 /* FSVCardParser.m */,
+				53352B7A185DB10F0028C4F3 /* Supporting Files */,
+			);
+			path = FSVCardParser;
+			sourceTree = "<group>";
+		};
+		53352B7A185DB10F0028C4F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53352B7B185DB10F0028C4F3 /* FSVCardParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53352B8D185DB10F0028C4F3 /* FSVCardParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				53352BA6185DB5560028C4F3 /* Parser */,
+				53352BA0185DB1E50028C4F3 /* Helper */,
+				53352B9D185DB1760028C4F3 /* VCards */,
+				53352B8E185DB10F0028C4F3 /* Supporting Files */,
+				53352BA7185DB56A0028C4F3 /* FSVCardParserTests.m */,
+			);
+			path = FSVCardParserTests;
+			sourceTree = "<group>";
+		};
+		53352B8E185DB10F0028C4F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53352B8F185DB10F0028C4F3 /* FSVCardParserTests-Info.plist */,
+				53352B90185DB10F0028C4F3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53352B9D185DB1760028C4F3 /* VCards */ = {
+			isa = PBXGroup;
+			children = (
+				53352B9E185DB1AD0028C4F3 /* example-vcard.vcf */,
+			);
+			name = VCards;
+			sourceTree = "<group>";
+		};
+		53352BA0185DB1E50028C4F3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				53352BA4185DB5030028C4F3 /* FSVCardFileManagerTests.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		53352BA6185DB5560028C4F3 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		53352BED185DBE2B0028C4F3 /* FSVCardParserExample */ = {
+			isa = PBXGroup;
+			children = (
+				53352BF6185DBE2B0028C4F3 /* FSAppDelegate.h */,
+				53352BF7185DBE2B0028C4F3 /* FSAppDelegate.m */,
+				53352BF9185DBE2B0028C4F3 /* Images.xcassets */,
+				53352BEE185DBE2B0028C4F3 /* Supporting Files */,
+			);
+			path = FSVCardParserExample;
+			sourceTree = "<group>";
+		};
+		53352BEE185DBE2B0028C4F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53352BEF185DBE2B0028C4F3 /* FSVCardParserExample-Info.plist */,
+				53352BF0185DBE2B0028C4F3 /* InfoPlist.strings */,
+				53352BF3185DBE2B0028C4F3 /* main.m */,
+				53352BF5185DBE2B0028C4F3 /* FSVCardParserExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53352B73185DB10F0028C4F3 /* FSVCardParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53352B97185DB10F0028C4F3 /* Build configuration list for PBXNativeTarget "FSVCardParser" */;
+			buildPhases = (
+				53352B70185DB10F0028C4F3 /* Sources */,
+				53352B71185DB10F0028C4F3 /* Frameworks */,
+				53352B72185DB10F0028C4F3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSVCardParser;
+			productName = FSVCardParser;
+			productReference = 53352B74185DB10F0028C4F3 /* libFSVCardParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		53352B83185DB10F0028C4F3 /* FSVCardParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53352B9A185DB10F0028C4F3 /* Build configuration list for PBXNativeTarget "FSVCardParserTests" */;
+			buildPhases = (
+				53352B80185DB10F0028C4F3 /* Sources */,
+				53352B81185DB10F0028C4F3 /* Frameworks */,
+				53352B82185DB10F0028C4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53352B8B185DB10F0028C4F3 /* PBXTargetDependency */,
+			);
+			name = FSVCardParserTests;
+			productName = FSVCardParserTests;
+			productReference = 53352B84185DB10F0028C4F3 /* FSVCardParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53352BE8185DBE2B0028C4F3 /* FSVCardParserExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53352C0D185DBE2B0028C4F3 /* Build configuration list for PBXNativeTarget "FSVCardParserExample" */;
+			buildPhases = (
+				53352BE5185DBE2B0028C4F3 /* Sources */,
+				53352BE6185DBE2B0028C4F3 /* Frameworks */,
+				53352BE7185DBE2B0028C4F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F624FA185DBFCA00979C36 /* PBXTargetDependency */,
+			);
+			name = FSVCardParserExample;
+			productName = FSVCardParserExample;
+			productReference = 53352BE9185DBE2B0028C4F3 /* FSVCardParserExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53352B6C185DB10F0028C4F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Felix Schulze";
+				TargetAttributes = {
+					53352B83185DB10F0028C4F3 = {
+						TestTargetID = 53352BE8185DBE2B0028C4F3;
+					};
+				};
+			};
+			buildConfigurationList = 53352B6F185DB10F0028C4F3 /* Build configuration list for PBXProject "FSVCardParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53352B6B185DB10F0028C4F3;
+			productRefGroup = 53352B75185DB10F0028C4F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53352B73185DB10F0028C4F3 /* FSVCardParser */,
+				53352B83185DB10F0028C4F3 /* FSVCardParserTests */,
+				53352BE8185DBE2B0028C4F3 /* FSVCardParserExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53352B82185DB10F0028C4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53352B92185DB10F0028C4F3 /* InfoPlist.strings in Resources */,
+				53352B9F185DB1AD0028C4F3 /* example-vcard.vcf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53352BE7185DBE2B0028C4F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53352BF2185DBE2B0028C4F3 /* InfoPlist.strings in Resources */,
+				53F624F8185DBEDA00979C36 /* example-vcard.vcf in Resources */,
+				53352BFA185DBE2B0028C4F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53352B70185DB10F0028C4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53352BE2185DBA060028C4F3 /* FSVCardFileManager.m in Sources */,
+				53352B7F185DB10F0028C4F3 /* FSVCardParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53352B80185DB10F0028C4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53352BA5185DB5030028C4F3 /* FSVCardFileManagerTests.m in Sources */,
+				53352BA8185DB56A0028C4F3 /* FSVCardParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53352BE5185DBE2B0028C4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53352BF4185DBE2B0028C4F3 /* main.m in Sources */,
+				53352BF8185DBE2B0028C4F3 /* FSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53352B8B185DB10F0028C4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53352B73185DB10F0028C4F3 /* FSVCardParser */;
+			targetProxy = 53352B8A185DB10F0028C4F3 /* PBXContainerItemProxy */;
+		};
+		53F624FA185DBFCA00979C36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53352B73185DB10F0028C4F3 /* FSVCardParser */;
+			targetProxy = 53F624F9185DBFCA00979C36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53352B90185DB10F0028C4F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53352B91185DB10F0028C4F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53352BF0185DBE2B0028C4F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53352BF1185DBE2B0028C4F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53352B95185DB10F0028C4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53352B96185DB10F0028C4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53352B98185DB10F0028C4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FSVCardParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSVCardParser/FSVCardParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		53352B99185DB10F0028C4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/FSVCardParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSVCardParser/FSVCardParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		53352B9B185DB10F0028C4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FSVCardParserExample.app/FSVCardParserExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSVCardParser/FSVCardParser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FSVCardParserTests/FSVCardParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		53352B9C185DB10F0028C4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FSVCardParserExample.app/FSVCardParserExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSVCardParser/FSVCardParser-Prefix.pch";
+				INFOPLIST_FILE = "FSVCardParserTests/FSVCardParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		53352C0E185DBE2B0028C4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSVCardParserExample/FSVCardParserExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FSVCardParserExample/FSVCardParserExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53352C0F185DBE2B0028C4F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSVCardParserExample/FSVCardParserExample-Prefix.pch";
+				INFOPLIST_FILE = "FSVCardParserExample/FSVCardParserExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53352B6F185DB10F0028C4F3 /* Build configuration list for PBXProject "FSVCardParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53352B95185DB10F0028C4F3 /* Debug */,
+				53352B96185DB10F0028C4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53352B97185DB10F0028C4F3 /* Build configuration list for PBXNativeTarget "FSVCardParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53352B98185DB10F0028C4F3 /* Debug */,
+				53352B99185DB10F0028C4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53352B9A185DB10F0028C4F3 /* Build configuration list for PBXNativeTarget "FSVCardParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53352B9B185DB10F0028C4F3 /* Debug */,
+				53352B9C185DB10F0028C4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53352C0D185DBE2B0028C4F3 /* Build configuration list for PBXNativeTarget "FSVCardParserExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53352C0E185DBE2B0028C4F3 /* Debug */,
+				53352C0F185DBE2B0028C4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53352B6C185DB10F0028C4F3 /* Project object */;
+}

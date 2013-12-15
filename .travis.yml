@@ -1,0 +1,8 @@
+language: objective-c
+before_install: 
+ - echo "Update CocoaPods"
+ - gem install cocoapods
+ - pod --version
+script: 
+ - xctool -project FSVCardParser.xcodeproj -scheme FSVCardParser -sdk iphonesimulator clean build test
+ - xctool -project FSVCardParser.xcodeproj -scheme FSVCardParserExample -sdk iphonesimulator clean build
